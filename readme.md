@@ -56,7 +56,7 @@ If you are having an issue with your RSA key or it is prompting you to type a pa
 Once you have done this, make sure you have scaled your dynos to use the free plan
 
 ```
-heroku run ps:scale web=1 -a YOUR_APP_NAME
+heroku ps:scale web=1 -a YOUR_APP_NAME
 ```
 
 You should now be able to visit your application by entering the following in the terminal:
