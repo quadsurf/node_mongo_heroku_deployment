@@ -6,9 +6,10 @@
 
 2. Make sure you have installed the heroku toolbelt - [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
  
+3. Make sure that you have initialized a git repository by running `git init`
+
 2. In terminal, inside the root directory of your application, run `heroku create NAME_OFF_YOUR_APP`
 
-3. Make sure that you have initialized a git repository by running `git init` and then add the heroku remote using `heroku git:remote -a NAME_OF_YOUR_APP`
 
 * Create a `Procfile` by running `echo "web: node app.js" > Procfile`. This file must be named with a capital P and with no extention. **It also must be in the same directory as your app.js**
 
